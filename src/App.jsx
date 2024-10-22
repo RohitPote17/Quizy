@@ -8,10 +8,10 @@ import ElementPC from './ElementPC'
 function App() {
   return (
     <div >
-     {/* <Landing/> */}
+     <Landing/>
      {/* <EmailForm/> */}
      {/* <EmailRestAPI/> */}
-     <ElementPC/>
+     {/* <ElementPC/> */}
 
     
     </div>

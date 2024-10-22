@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities{
+    
+.neon-text{
+    text-shadow:  0 0 5px rgba(4, 139, 11, 0.2);
+    text-shadow:  0 0 10px rgba(5, 155, 5, 0.637);
+    text-shadow:  0 0 15px rgba(47, 180, 6, 0.6);
+    text-shadow:  0 0 20px rgba(27, 204, 11, 0.8);
+}
+}

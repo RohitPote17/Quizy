@@ -1,6 +1,8 @@
 import React from "react";
 import About from "./About";
 import Contact from "./Contact";
+import ElementPC from "./ElementPC";
+// import "./style.css"
 
 function Landing() {
   return (
@@ -22,6 +24,7 @@ function Landing() {
         </h1>
       </div>
 
+      <ElementPC/>
       <About/>
       <Contact/>
      
