@@ -1,10 +1,19 @@
 import React from 'react'
 import Landing from './Landing'
+import EmailForm from './EmailForm'
+import EmailRestAPI from './EmailRestAPI'
+import ElementPC from './ElementPC'
+// import "./style.css";
 
 function App() {
   return (
-    <div className='bg-zinc-800 w-full h-screen'>
-     <Landing/>
+    <div >
+     {/* <Landing/> */}
+     {/* <EmailForm/> */}
+     {/* <EmailRestAPI/> */}
+     <ElementPC/>
+
+    
     </div>
   )
 }
